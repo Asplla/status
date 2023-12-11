@@ -19,15 +19,15 @@ window.Config = {
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://www.xinxin2021.tk'
+      url: 'https://wxss.fit'
     },
     {
       text: 'GitHub',
-      url: 'https://github.com/xinxin2021'
+      url: 'https://github.com/Asplla'
     },
     {
-      text: 'Blog',
-      url: 'https://blog.xinxin2021.tk'
+      text: 'IPTV',
+      url: 'https://iptv.wxss.fit'
     },
   ],
 };
