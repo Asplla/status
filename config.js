@@ -1,7 +1,7 @@
 window.Config = {
 
   // 显示标题
-  SiteName: 'Xinxin Service',
+  SiteName: "Xu's Service",
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
