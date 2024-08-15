@@ -34,7 +34,7 @@ jobs:
           # 选择要使用的 node 版本
           node-version: 20
           # 缓存 npm 依赖
-          cache: npm
+          #cache: npm
 
       - name: Install Dependencies
         run: pnpm install
@@ -42,9 +42,6 @@ jobs:
       # 运行构建脚本
       - name: Build Packages
         run: pnpm run build
-
-      #- name: Build Docs
-      #  run: pnpm run docs:build
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
@@ -55,6 +52,8 @@ jobs:
           target_branch: gh-pages
           # 部署目录为 Vue 的默认输出目录
           build_dir: dist
+          # 自动从部署分支中删除已删除的文件
+          clean: true
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
