@@ -19,6 +19,7 @@
   --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+
 }
 
 /* semantic color variables for this project */
@@ -34,6 +35,14 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
+
+  --weui-mask-disabled: rgba(255, 255, 255, 0.6);
+  --weui-bg-color-container-hover: #f3f3f3;
+  --weui-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.05), 0 16px 24px 2px rgba(0, 0, 0, 4%), 0 8px 10px -5px rgba(0, 0, 0, 8%);
+  --weui-shadow-inset-top: inset 0 0.5px 0 #dcdcdc;
+  --weui-shadow-inset-right: inset 0.5px 0 0 #dcdcdc;
+  --weui-shadow-inset-bottom: inset 0 -0.5px 0 #dcdcdc;
+  --weui-shadow-inset-left: inset -0.5px 0 0 #dcdcdc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -47,6 +56,14 @@
 
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
+
+    --weui-mask-disabled: rgba(0, 0, 0, 0.6);
+    --weui-bg-color-container-hover: #2c2c2c;
+    --weui-shadow: 0 16px 24px rgba(0, 0, 0, 0.14), 0 6px 30px rgba(0, 0, 0, 0.12), 0 8px 10px rgba(0, 0, 0, 0.20);
+    --weui-shadow-inset-top: inset 0 0.5px 0 #5e5e5e;
+    --weui-shadow-inset-right: inset 0.5px 0 0 #5e5e5e;
+    --weui-shadow-inset-bottom: inset 0 -0.5px 0 #5e5e5e;
+    --weui-shadow-inset-left: inset -0.5px 0 0 #5e5e5e;
   }
 }
 
@@ -61,24 +78,10 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
+  background: var(--weui-BG-0);
+  transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
+  font-family: MiSans, MIUI, Helvetica Neue, Helvetica, Arial, PingFang SC, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
   font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
