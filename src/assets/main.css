@@ -77,6 +77,9 @@ a,
 .t-table--hoverable tbody tr:hover {
   background-color: var(--weui-bg-color-container-hover) !important;
 }
+.site-title {
+  font-family: AvenirNext-DemiBold;
+}
 .legend {
   align-items: center;
   color: var(--weui-FG-0);

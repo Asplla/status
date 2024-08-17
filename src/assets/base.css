@@ -67,6 +67,14 @@
   }
 }
 
+@font-face {
+  font-family: AvenirNext-DemiBold;
+  font-style: normal;
+  font-weight: "normal";
+  font-display: swap;
+  src: url(fonts/AvenirNext-DemiBold.woff) format("woff"), url(fonts/AvenirNext-DemiBold.woff2) format("woff2")
+}
+
 *,
 *::before,
 *::after {
