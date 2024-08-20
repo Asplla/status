@@ -35,7 +35,7 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
-
+  --weui-logo-text: #000427;
   --weui-mask-disabled: rgba(255, 255, 255, 0.6);
   --weui-bg-color-container-hover: #f3f3f3;
   --weui-shadow: 0 6px 30px 5px rgba(0, 0, 0, 0.05), 0 16px 24px 2px rgba(0, 0, 0, 4%), 0 8px 10px -5px rgba(0, 0, 0, 8%);
@@ -57,6 +57,7 @@
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
 
+    --weui-logo-text: #FFFFFF;
     --weui-mask-disabled: rgba(0, 0, 0, 0.6);
     --weui-bg-color-container-hover: #2c2c2c;
     --weui-shadow: 0 16px 24px rgba(0, 0, 0, 0.14), 0 6px 30px rgba(0, 0, 0, 0.12), 0 8px 10px rgba(0, 0, 0, 0.20);
@@ -68,11 +69,11 @@
 }
 
 @font-face {
-  font-family: AvenirNext-DemiBold;
+  font-family: LINESeedSans_W_Bd;
   font-style: normal;
   font-weight: "normal";
   font-display: swap;
-  src: url(fonts/AvenirNext-DemiBold.woff) format("woff"), url(fonts/AvenirNext-DemiBold.woff2) format("woff2")
+  src: url(fonts/LINESeedSans_W_Bd.woff) format("woff"), url(fonts/LINESeedSans_W_Bd.woff2) format("woff2")
 }
 
 *,

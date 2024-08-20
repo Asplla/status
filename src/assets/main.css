@@ -78,7 +78,8 @@ a,
   background-color: var(--weui-bg-color-container-hover) !important;
 }
 .site-title {
-  font-family: AvenirNext-DemiBold;
+  font-family: LINESeedSans_W_Bd;
+  color: var(--weui-logo-text);
 }
 .legend {
   align-items: center;

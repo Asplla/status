@@ -1,6 +1,6 @@
 <template>
   <div class="greetings">
-    <h1 class="blue site-title">System Status</h1>
+    <h1 class="blue site-title">wxhub Status</h1>
     <div class="legend">
       <div class="legend-item status-icon unknow-icon">未知</div>
       <div class="legend-item status-icon success-icon">可用</div>
