@@ -77,8 +77,11 @@ a,
 .t-table--hoverable tbody tr:hover {
   background-color: var(--weui-bg-color-container-hover) !important;
 }
+.site-logo {
+  fill: var(--weui-logo-icon);
+}
 .site-title {
-  font-family: LINESeedSans_W_Bd;
+  font-family: LINESeedSans_W_XBd;
   color: var(--weui-logo-text);
 }
 .legend {

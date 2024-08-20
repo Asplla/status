@@ -35,6 +35,7 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
+  --weui-logo-icon: var(--td-brand-color-6);
   --weui-logo-text: #000427;
   --weui-mask-disabled: rgba(255, 255, 255, 0.6);
   --weui-bg-color-container-hover: #f3f3f3;
@@ -57,6 +58,7 @@
     --color-heading: var(--vt-c-text-dark-1);
     --color-text: var(--vt-c-text-dark-2);
 
+    --weui-logo-icon: #FFFFFF;
     --weui-logo-text: #FFFFFF;
     --weui-mask-disabled: rgba(0, 0, 0, 0.6);
     --weui-bg-color-container-hover: #2c2c2c;
@@ -69,11 +71,11 @@
 }
 
 @font-face {
-  font-family: LINESeedSans_W_Bd;
+  font-family: LINESeedSans_W_XBd;
   font-style: normal;
   font-weight: "normal";
   font-display: swap;
-  src: url(fonts/LINESeedSans_W_Bd.woff) format("woff"), url(fonts/LINESeedSans_W_Bd.woff2) format("woff2")
+  src: url(fonts/LINESeedSans_W_XBd.woff) format("woff"), url(fonts/LINESeedSans_W_XBd.woff2) format("woff2")
 }
 
 *,
