@@ -1,11 +1,11 @@
-import { createRouter, createWebHistory } from "vue-router"
+import { createRouter, createWebHashHistory, createWebHistory } from "vue-router"
 import HomeView from "../views/HomeView.vue"
 const routes = [
   {
     path: "/",
     name: "home",
     meta:{
-      title: "Xu's System Status",
+      title: "wxhub System Status",
     },
     component: HomeView
   },
@@ -19,7 +19,8 @@ const routes = [
   }
 ]
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  //history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes
 })
 

@@ -85,6 +85,7 @@ onMounted(() => {
   }).then(res => {
     data.list = res.data.monitors ;
     data.loading = false;
+    console.log(res.data);
     MessagePlugin.success('系统状态获取成功');
   }).catch(function (err) {
     if (err.response) {
