@@ -63,10 +63,9 @@ const columns = ref<TableProps["columns"]>([
     title: "服务状态",
     cell: (h, { row }) => {
       return (
-        <div
-          class={`status-item status-icon ${statusNameListMap[row.status].icon}`}
-        >
-          {statusNameListMap[row.status].label}
+        <div class="status-item">
+          <i class={`status-dot ${statusNameListMap[row.status].icon}`}></i>
+          <span>{statusNameListMap[row.status].label}</span>
         </div>
       );
     },

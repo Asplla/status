@@ -2,10 +2,22 @@
   <div class="greetings">
     <h1 class="blue site-title">wxhub Status</h1>
     <div class="legend">
-      <div class="legend-item status-icon unknow-icon">未知</div>
-      <div class="legend-item status-icon success-icon">可用</div>
-      <div class="legend-item status-icon paused-icon">维护中</div>
-      <div class="legend-item status-icon fail-icon">不可用</div>
+      <div class="legend-item">
+        <i class="status-dot unknow-icon"></i>
+        <span>未知</span>
+      </div>
+      <div class="legend-item">
+        <i class="status-dot success-icon"></i>
+        <span>可用</span>
+      </div>
+      <div class="legend-item">
+        <i class="status-dot paused-icon"></i>
+        <span>维护中</span>
+      </div>
+      <div class="legend-item">
+        <i class="status-dot fail-icon"></i>
+        <span>不可用</span>
+      </div>
     </div>
   </div>
 </template>
